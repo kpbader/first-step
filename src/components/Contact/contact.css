@@ -1,0 +1,50 @@
+#contact-page {
+  background-image: url("../../assets/images/AdobeStock_285583509.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+
+#contact-header {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 75px;
+    font-weight: bold;
+}
+
+#contact-cards {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+
+#contact-cards .card {
+    text-align: center;
+    width: 200px;
+    height: 125px;
+    margin: 25px;
+    padding: 25px;
+    color: rgb(75, 212, 137);
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+    /* backdrop-filter: blur(14px); */
+}
+
+#contact-cards .card-title {
+    font-weight: 500;
+}
+
+#contact-cards .card-text {
+    color: white;
+    font-size: 20px;
+}
+
+#contact-cards .card-link {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}

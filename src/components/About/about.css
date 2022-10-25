@@ -1,3 +1,24 @@
-/* #wwd-page {
-    
-} */
+#about-page {
+    background-image: url("../../assets/images/billy-cox-unsplash.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#about-header {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 75px;
+    font-weight: bold;
+}
+
+ #about-text {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    font-size: 30px;
+    color: white;
+    margin: 0px !important;
+}

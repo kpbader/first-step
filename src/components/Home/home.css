@@ -1,34 +1,127 @@
 h2 {
-    position: absolute;
-    top: 60%;
-    right: 60%;
-    transform: translate(50%, 50%);
-    font-size: 50px;
-    color: white;
-    padding-left: 50px;
+  position: absolute;
+  top: 60%;
+  right: 60%;
+  transform: translate(50%, 50%);
+  font-size: 50px;
+  color: white;
+  padding-left: 50px;
 }
 
 #services-we-provide h3 {
-    font-size: 40px;
-    color: rgb(75, 212, 137);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  font-size: 40px;
+  color: rgb(75, 212, 137);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #service-cards {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 #service-cards .card {
-    text-align: center;
-    margin: 25px;
-    padding: 30px;
-    color: rgb(75, 212, 137);
-    font-size: 30px;
+  text-align: center;
+  margin: 25px;
+  padding: 0px 30px 30px 30px;
+  color: rgb(75, 212, 137);
+  font-size: 30px;
 }
 
 .service-icon {
-    font-size: 60px;
+  font-size: 60px;
+}
+
+#bottom-contact {
+  background-image: url("../../assets/images/jt-10-25_overlay1.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#bottom-contact p {
+  font-size: 40px;
+  color: white;
+}
+
+#contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+#form-slot-1 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-slot-1 label {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#form-slot-1 input {
+  border-radius: 5px;
+}
+
+#form-slot-2 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-slot-2 label {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#form-slot-2 input {
+  border-radius: 5px;
+}
+
+#form-slot-3 {
+  font-size: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form-slot-3 label {
+  color: white;
+  padding-bottom: 10px;
+}
+
+#form-slot-3 textarea {
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.contact-submit-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.contact-submit-btn:hover {
+  color: grey;
+  border: 1px solid rgb(230, 224, 224);
+  transition: 0.5s ease;
+  cursor: pointer;
 }
