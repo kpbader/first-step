@@ -1,0 +1,44 @@
+#wwd-page {
+  background-image: url("../../assets/images/coastal-dark_overlay1.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  background-color: black;
+}
+
+#wwd-heading {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding-top: 75px;
+    font-weight: bold;
+}
+
+#wwd-cards {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#wwd-cards .card {
+    text-align: center;
+    width: 300px;
+    margin: 25px;
+    padding: 25px;
+    color: rgb(75, 212, 137);
+    font-size: 25px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#wwd-cards .card-title {
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+    
+}
+
+#wwd-cards .card-text {
+    color: white;
+    font-size: 22px;
+}
