@@ -11,6 +11,7 @@ import WWD from "./components/WWD/wwd";
 import About from "./components/About/about";
 import Mission from "./components/Mission/mission";
 import Contact from "./components/Contact/contact";
+import Footer from "./components/Footer/footer";
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path="/about" element={<About />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </>
   );

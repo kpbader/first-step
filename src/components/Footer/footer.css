@@ -1,0 +1,10 @@
+#footer {
+    background-color: rgb(75, 212, 137);
+    height: 150px;
+}
+
+#footer-logo img {
+    height: 15%;
+    width: 15%;
+    padding: 25px;
+}

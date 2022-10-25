@@ -1,8 +1,9 @@
 
 #nav-bar {
-    position: absolute;
+    
     width: 100%;
     background-color: rgb(75, 212, 137);
+    z-index: 9999;
     /* text-decoration: none !important; */
 }
 
