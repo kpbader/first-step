@@ -13,6 +13,7 @@ function Mission() {
 
     return (
         <section id="mission-page">
+            <div id="mission">
             <Fade top>
                 <div id="mission-heading">
                     <header>Our Mission</header>
@@ -56,6 +57,7 @@ function Mission() {
                     </Card>
                 </div>
             </Fade>
+            </div>
             <div id="bottom-contact">
                 <Fade left>
                     <form id="contact-form">

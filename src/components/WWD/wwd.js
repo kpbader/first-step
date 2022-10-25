@@ -14,6 +14,7 @@ function WWD() {
 
     return (
         <section id="wwd-page">
+            <div id="wwd">
             <Fade top>
                 <div id="wwd-heading">
                     What We Do
@@ -51,6 +52,7 @@ function WWD() {
                     </Card>
                 </div>
             </Fade>
+            </div>
             <div id="bottom-contact">
                 <Fade left>
                     <form id="contact-form">

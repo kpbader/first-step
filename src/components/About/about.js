@@ -11,6 +11,7 @@ function About() {
 
     return (
         <section id="about-page">
+            <div id="about">
             <Fade top>
                 <div id="about-header">
                     About Us
@@ -19,6 +20,7 @@ function About() {
             <Fade bottom>
                 <p id="about-text">Coming Soon!</p>
             </Fade>
+            </div>
             <div id="bottom-contact">
                 <Fade left>
                     <form id="contact-form">
