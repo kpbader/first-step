@@ -11,7 +11,7 @@ function Navbar() {
                 <div id="nav-logo">
                     <img src={FSlogo} alt="first step logo" />
                 </div>
-                <Nav >
+                <Nav id="top-nav">
                     <Nav.Item>
                         <Nav.Link>
                             <Link to="/" className="nav-tab">Home</Link>
