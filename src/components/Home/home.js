@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import { BsHouseFill } from "react-icons/bs";
 import { FaHandHoldingUsd, FaTshirt } from "react-icons/fa";
 import { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 function Home() {
 
@@ -25,11 +26,11 @@ function Home() {
                 </Fade>
             </div>
             <div id="services-we-provide">
-                <div id="services-header">
-                    <Fade top>
+                <Fade top>
+                    <div id="services-header">
                         <h3>Services We Provide</h3>
-                    </Fade>
-                </div>
+                    </div>
+                </Fade>
                 <Fade bottom>
                     <div id="service-cards">
                         <Card>
@@ -57,6 +58,9 @@ function Home() {
                             </Card.Body>
                         </Card>
                     </div>
+                    <button id="learn-more-btn">
+                        <Link to="/what-we-do">Learn More</Link>
+                    </button>
                 </Fade>
             </div>
             <div id="bottom-contact">
@@ -65,7 +69,7 @@ function Home() {
                         <p id="hp-contact-form-header">Reach Out</p>
                         <div id="form-slot-1">
                             <label htmlFor="name">Name</label>
-                            <input type="text" defaultValue={name} name="name"/>
+                            <input type="text" defaultValue={name} name="name" />
                         </div>
                         <div id="form-slot-2">
                             <label htmlFor="email">Email</label>
