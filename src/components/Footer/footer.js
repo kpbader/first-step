@@ -18,8 +18,8 @@ function Footer() {
             <div id="footer-logo">
                 <img src={footerLogo} alt="logo" />
             </div>
-            <div id="footer-nav">
-                <Nav >
+            
+                <Nav id="footer-nav">
                     <Nav.Item>
                         <Nav.Link>
                             <Link to="/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
@@ -42,11 +42,11 @@ function Footer() {
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link>
-                            <Link to="/contact" className="footer-nav-tab" onClick={scrollToTop}>Contact</Link>
+                            <Link to="/contact" className="footer-nav-tab" >Contact</Link>
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>
-            </div>
+            
         </section>
     )
 };

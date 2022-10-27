@@ -7,7 +7,6 @@ import FSlogo from '../../assets/images/first-step-logo_v5.png';
 function Navbar() {
     return (
         <section id="nav-bar">
-            <div id="nav-bar-container">
                 <div id="nav-logo">
                     <img src={FSlogo} alt="first step logo" />
                 </div>
@@ -38,7 +37,6 @@ function Navbar() {
                         </Nav.Link>
                     </Nav.Item>
                 </Nav>
-            </div>
         </section>
     )
 }
