@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/first-step/static/css/main.3d519e63.css",
+    "main.js": "/first-step/static/js/main.4fd6d15a.js",
+    "static/js/787.67251541.chunk.js": "/first-step/static/js/787.67251541.chunk.js",
+    "static/media/jt-10-25_overlay1.png": "/first-step/static/media/jt-10-25_overlay1.0b1375da2ef6a1407e0c.png",
+    "static/media/LA-skyline-dark_overlay1.png": "/first-step/static/media/LA-skyline-dark_overlay1.7f6739123ad770daaaf6.png",
+    "static/media/splash-video.mp4": "/first-step/static/media/splash-video.91b4209217586770f9df.mp4",
+    "static/media/AdobeStock_285583509.jpeg": "/first-step/static/media/AdobeStock_285583509.3a343c9b42a0c4ae2646.jpeg",
+    "static/media/coastal-dark_overlay1.jpg": "/first-step/static/media/coastal-dark_overlay1.c99184f9aba634256146.jpg",
+    "static/media/billy-cox-unsplash.jpg": "/first-step/static/media/billy-cox-unsplash.4cb70dd9c281bbaafe5f.jpg",
+    "static/media/first-step-logo_v5.png": "/first-step/static/media/first-step-logo_v5.ba5f8c3a067ee60d6bf5.png",
+    "index.html": "/first-step/index.html",
+    "main.3d519e63.css.map": "/first-step/static/css/main.3d519e63.css.map",
+    "main.4fd6d15a.js.map": "/first-step/static/js/main.4fd6d15a.js.map",
+    "787.67251541.chunk.js.map": "/first-step/static/js/787.67251541.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d519e63.css",
+    "static/js/main.4fd6d15a.js"
+  ]
+}
