@@ -13,7 +13,7 @@ function Navbar() {
                 <Nav id="top-nav">
                     <Nav.Item>
                         <Nav.Link>
-                            <Link to="/" className="nav-tab">Home</Link>
+                            <Link to="/first-step/" className="nav-tab">Home</Link>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
