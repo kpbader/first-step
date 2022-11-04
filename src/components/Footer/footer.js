@@ -22,7 +22,7 @@ function Footer() {
                 <Nav id="footer-nav">
                     <Nav.Item>
                         <Nav.Link>
-                            <Link to="/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
+                            <Link to="/first-step/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
