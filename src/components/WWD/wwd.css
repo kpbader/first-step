@@ -6,38 +6,72 @@
 }
 
 #wwd-heading {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    padding-top: 75px;
-    font-weight: bold;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  padding-top: 75px;
 }
 
 #wwd-cards {
-    display: flex;
-    justify-content: center;
-    padding: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 
 #wwd-cards .card {
-    text-align: center;
-    width: 300px;
-    margin: 25px;
-    padding: 25px;
-    color: rgb(75, 212, 137);
-    font-size: 25px;
-    border: 1px solid;
-    border-radius: 5px;
+  text-align: center;
+  width: 300px;
+  margin: 25px;
+  padding: 25px;
+  color: rgb(75, 212, 137);
+  font-size: 25px;
+  border: 1px solid;
+  border-radius: 5px;
 }
 
 #wwd-cards .card-title {
-    font-size: 30px;
-    color: white;
-    padding: 20px;
-    
+  font-size: 30px;
+  color: white;
+  padding: 20px;
 }
 
 #wwd-cards .card-text {
-    color: white;
-    font-size: 22px;
+  color: white;
+  font-size: 22px;
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    #wwd-heading {
+        padding-bottom: 50px;
+    }
+
+  #wwd-cards {
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: center;
+    
+  }
+
+  #wwd-cards .card {
+      margin: 10px;
+      padding: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+    #wwd-cards .card {
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width:900px) {
+
+    #wwd-cards .card {
+        margin: 10px;
+        padding: 10px;
+    }
 }

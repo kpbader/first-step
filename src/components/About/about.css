@@ -1,24 +1,35 @@
 #about {
-    background-image: url("../../assets/images/billy-cox-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../assets/images/billy-cox-unsplash.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 
-#about-header {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-    padding-top: 75px;
-    font-weight: bold;
+#about-text {
+  padding: 75px;
+  text-align: center;
 }
 
- #about-text {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 100px;
-    padding-top: 50px;
-    font-size: 30px;
+#about-header {
+    font-size: 44px;
+    color: white;
+    padding-top: 75px;
+    /* font-weight: bold; */
+}
+
+ #about-p {
+    padding: 25px 75px 25px 75px;
+    font-size: 22px;
     color: white;
     margin: 0px !important;
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  #about-text {
+    padding: 10px;
+    text-align: center;
+  }
+
 }

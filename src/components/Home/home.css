@@ -1,4 +1,4 @@
-h2 {
+#home-splash h2 {
   position: absolute;
   top: 60%;
   right: 60%;
@@ -6,6 +6,7 @@ h2 {
   font-size: 50px;
   color: white;
   padding-left: 50px;
+  font-weight: normal;
 }
 
 #home-splash video {
@@ -71,95 +72,36 @@ h2 {
   cursor: pointer;
 }
 
-#bottom-contact {
-  background-image: url("../../assets/images/jt-10-25_overlay1.png");
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  /* Extra small devices */
+  @media only screen and (min-width: 320px) and (max-width: 479px) {
+
+    #services-header h3 {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    #service-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  /* Portrait tablets and large phones*/
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+ 
+  #service-cards .card {
+    margin: 10px;
+  }
+
 }
 
-#bottom-contact p {
-  font-size: 40px;
-  color: white;
+/* Landscape tablets */
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+  /* * {
+    overflow: scroll;
+  } */
 }
 
-#contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 30px;
-}
-
-#form-slot-1 {
-  font-size: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-#form-slot-1 label {
-  color: white;
-  padding-bottom: 10px;
-}
-
-#form-slot-1 input {
-  border-radius: 5px;
-}
-
-#form-slot-2 {
-  font-size: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-#form-slot-2 label {
-  color: white;
-  padding-bottom: 10px;
-}
-
-#form-slot-2 input {
-  border-radius: 5px;
-}
-
-#form-slot-3 {
-  font-size: 20px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-#form-slot-3 label {
-  color: white;
-  padding-bottom: 10px;
-}
-
-#form-slot-3 textarea {
-  border-radius: 5px;
-  font-size: 12px;
-}
-
-.contact-submit-btn {
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 12px;
-  color: white;
-  font-weight: bold;
-  font-size: 15px;
-}
-
-.contact-submit-btn:hover {
-  color: grey;
-  border: 1px solid rgb(230, 224, 224);
-  transition: 0.5s ease;
-  cursor: pointer;
-}
+  
