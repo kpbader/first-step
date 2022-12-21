@@ -54,11 +54,11 @@ function Navbar() {
                 <Offcanvas.Body>
                     <section id="nav-tabs">
                         <ul className="tabpanel">
-                            <Link to="/first-step" className="header-nav-tab">Home</Link>
-                            <Link to="/what-we-do" className="header-nav-tab">What We Do</Link>
-                            <Link to="/our-mission" className="header-nav-tab">Our Mission</Link>
-                            <Link to="/about" className="header-nav-tab">About Us</Link>
-                            <Link to="/contact" className="header-nav-tab">Contact</Link>
+                            <Link to="/first-step" className="header-nav-tab" onClick={handleClose}>Home</Link>
+                            <Link to="/what-we-do" className="header-nav-tab" onClick={handleClose}>What We Do</Link>
+                            <Link to="/our-mission" className="header-nav-tab" onClick={handleClose}>Our Mission</Link>
+                            <Link to="/about" className="header-nav-tab" onClick={handleClose}>About Us</Link>
+                            <Link to="/contact" className="header-nav-tab" onClick={handleClose}>Contact</Link>
                         </ul>
                     </section>
                 </Offcanvas.Body>
